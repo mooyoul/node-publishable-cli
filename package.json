@@ -1,6 +1,6 @@
 {
   "name": "publishable-cli",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "description": "Checks if a package is publishable to NPM registry",
   "bin": {
     "publishable": "lib/index.js"
