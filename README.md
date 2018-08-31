@@ -5,7 +5,8 @@
 [![devDependency Status](https://david-dm.org/mooyoul/node-publishable-cli/dev-status.svg)](https://david-dm.org/mooyoul/node-publishable#info=devDependencies)
 [![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](http://mooyoul.mit-license.org/)
 
-Checks if a package is publishable to NPM registry (with private package support!)
+Checks if a package is publishable to NPM registry (with private package support!),
+Made for CI/CD Workflow of NPM packages. 
 
 
 ## Sponsor
@@ -24,11 +25,17 @@ $ npm install publishable-cli
 
 ```bash
 $ publishable && echo "^0^ this package can be published to npm registry"
-$ publishable && npm publish
 ```
 
 ```bash
 $ publishable || echo "T_T this pacakge shouldn't be published to npm registry..."
+```
+
+For CI/CD Workflows:
+
+```bash
+$ publishable && npm publish # publish only given spec haven't published to registry
+$ publishable && npm publish || echo "Package does not seems publishable. Skipping publish step."
 ```
 
 # Related
@@ -37,6 +44,10 @@ $ publishable || echo "T_T this pacakge shouldn't be published to npm registry..
 
 
 ## Changelog
+
+#### 1.0.0
+
+- Verison Bump
 
 #### 0.1.0
 
