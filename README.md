@@ -1,10 +1,8 @@
 # node-publishable-cli
 
-[![Build Status](https://travis-ci.org/mooyoul/node-publishable.svg?branch=master)](https://travis-ci.org/mooyoul/node-publishable)
-[![Coverage Status](https://coveralls.io/repos/github/mooyoul/node-publishable/badge.svg?branch=master)](https://coveralls.io/github/mooyoul/node-publishable?branch=master)
-[![codecov.io](https://codecov.io/github/mooyoul/node-publishable/coverage.svg?branch=master)](https://codecov.io/github/mooyoul/node-publishable?branch=master)
-[![Dependency Status](https://david-dm.org/mooyoul/node-publishable.svg)](https://david-dm.org/mooyoul/node-publishable)
-[![devDependency Status](https://david-dm.org/mooyoul/node-publishable/dev-status.svg)](https://david-dm.org/mooyoul/node-publishable#info=devDependencies)
+[![Build Status](https://travis-ci.org/mooyoul/node-publishable-cli.svg?branch=master)](https://travis-ci.org/mooyoul/node-publishable)
+[![Dependency Status](https://david-dm.org/mooyoul/node-publishable-cli.svg)](https://david-dm.org/mooyoul/node-publishable)
+[![devDependency Status](https://david-dm.org/mooyoul/node-publishable-cli/dev-status.svg)](https://david-dm.org/mooyoul/node-publishable#info=devDependencies)
 [![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](http://mooyoul.mit-license.org/)
 
 Checks if a package is publishable to NPM registry (with private package support!)
