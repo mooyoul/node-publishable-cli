@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- '6'
+- '8'
+- '10'
+before_deploy:
+- npm run prepublishOnly
+deploy:
+  provider: npm
+  email: mooyoul@gmail.com
+  api_key:
+    secure: PN5b5CxIxmC120GqLszI8x+czO/RweXkZbNuc1cFIcNPGE+ikEvvT/HKq3m/AE36Oj9bcGl//LPXEkJhABp7eKIsIs5ywNRSVIgQ8aYF5HQGX1Ou0aClU+KA4BB9VO431dKHQ9RCSuO9uO1e9qrTVGIPZGP2qhIGuZDlHqXCpDFWwSOwzYU06O2gJrSDDuLBELVW6Bb8tB/8zWbvnN4/aQ+5MW249rP8r1xllZj33tlacIxWa4/kgkhJkPZSc0VTYkJq1TG0WMxIuhMhsT2m2siFUVUk0Knl40RnuvEi6Fr9IYo9OJt9uFyQlCqBUFIFDQ2cmdCGq5662JDRYLa2xM5qmztto1wcQ+3TC3BT10ayqhFZ0ckOnYcx5BOyjei2hiU/z1WnE1HaMzefets76oyL9LveNY/W5x+9F8+1sUaUe8HJaJZ56ImjLY7IvtVZEYULQvadV/b+uYZ8WSSPgF/PuFE2LbsJn0l3S20q0Wuvki0Q0RvwDKdphPrfxVvyaohvDvU3Doh7XsAKz4c8Olo9zP8t+ksgPLL+6tmLW3hJzY3HOoUZRwEIZVRI0Wb04CIRh4wrN1iStVA7QgFwI7t+eVDZ1y/4uaZu4CfhEnYs6/wGHcnDKNRQ9qu90ORMI7e7EfCzu2MgcJelaWhwp6AYxRRcxGooux3iE7KwKxc=
+  on:
+    tags: true
+    repo: mooyoul/node-publishable-cli
