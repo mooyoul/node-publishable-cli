@@ -1,10 +1,7 @@
 import { expect } from "chai";
-import { randomBytes } from "crypto";
 import * as execa from "execa";
 
 describe("publishable", () => {
-  let packagePath: string;
-
   context("when package is publishable", () => {
     it("should exit with 0", async () => {
       await execa(".build/src/index.js", ["test/fixtures/publishable-package"]);
