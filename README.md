@@ -1,8 +1,8 @@
 # node-publishable-cli
 
-[![Build Status](https://travis-ci.org/mooyoul/node-publishable-cli.svg?branch=master)](https://travis-ci.org/mooyoul/node-publishable)
-[![Dependency Status](https://david-dm.org/mooyoul/node-publishable-cli.svg)](https://david-dm.org/mooyoul/node-publishable)
-[![devDependency Status](https://david-dm.org/mooyoul/node-publishable-cli/dev-status.svg)](https://david-dm.org/mooyoul/node-publishable#info=devDependencies)
+[![Build Status](https://travis-ci.org/mooyoul/node-publishable-cli.svg?branch=master)](https://travis-ci.org/mooyoul/node-publishable-cli)
+[![Dependency Status](https://david-dm.org/mooyoul/node-publishable-cli.svg)](https://david-dm.org/mooyoul/node-publishable-cli)
+[![devDependency Status](https://david-dm.org/mooyoul/node-publishable-cli/dev-status.svg)](https://david-dm.org/mooyoul/node-publishable-cli#info=devDependencies)
 [![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](http://mooyoul.mit-license.org/)
 
 Checks if a package is publishable to NPM registry (with private package support!),
@@ -44,6 +44,10 @@ $ publishable && npm publish || echo "Package does not seems publishable. Skippi
 
 
 ## Changelog
+
+#### 1.0.1
+
+- Fixed broken package deployment
 
 #### 1.0.0
 
